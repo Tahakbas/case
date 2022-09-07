@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
-sudo chown -R $(id -u):$(id -g) $HOME/.kube/
+sudo -A chown $(id -u):$(id -g) $HOME/.kube/config
+sudo -A chown -R $(id -u):$(id -g) $HOME/.kube/
