@@ -1,3 +1,4 @@
 #!/bin/bash
 
-helm install app /var/lib/jenkins/workspace/test/charts/caseapp
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+sudo chown -R $(id -u):$(id -g) $HOME/.kube/
