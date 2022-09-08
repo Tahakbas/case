@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/tahakbas/hbcase
+  repository: docker.io/tahakbas/case
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
